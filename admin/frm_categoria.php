@@ -25,7 +25,7 @@
                         <input type="text" name="txt_ativo" id="txt_ativo" value="">
                     </label>
                     <br>
-                    <button type="submit" class="btn btn-primary" >Inserir</button> 
+                    <button type="submit" class="btn btn-primary">Inserir</button> 
                 </fieldset>
             </form>
         </div>

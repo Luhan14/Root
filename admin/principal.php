@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Área Administrativa -
-    <?php
-    $nome = $_GET['nome']; echo $nome;
-    ?>
-    
-    
-    </title>
+    <title>Área Administrativa</title>
     <link rel="stylesheet" href="css/style_admin.css">
 </head>
 <body>
@@ -50,7 +44,7 @@
                     $pag[3]="lista_categoria.php";
                     $pag[4]="frm_post.php";
                     $pag[5]="lista_post.php";
-                    $pag[6]="frm_noticia.php";
+                    $pag[6]="frm_post.php";
                     $pag[7]="lista_noticia.php";
                     
                     if(!empty($link)){
