@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 
 
@@ -30,6 +30,15 @@
     <tr bgcolor="#fff">
         <td><font size="2" face="verdana-arial"><?php echo $row['id_post']?></font></td>
         <td><font size="2" face="verdana-arial"><?php echo $row['titulo_post']?></font></td>
+        <td><font size="2" face="verdana-arial"><?php echo $row['data_post']?></font></td>
         <td><font size="2" face="verdana-arial"><?php echo $row['post_ativo']?></font></td>
-        <td align="center"><font size="2" face = "verdana, arial, helvetica, sans-serif"><a href="principal.php?link=4&acao=Alterar&id=<?php echo $linha['id_post']; ?>"></a></font></td>
-        <td align="center"><font size="2" face = "verdana, arial, helvetica, sans-serif"><a href="principal.php?link=4&acao=Excluir&id=<?php echo $linha['id_post']; ?>"></a></font></td>
+        <td align="center"><font size="2" face="verdana,arial"><a href="principal.php?link=">Alterar</a></font></td>
+        <td align="center"><font size="2" face="verdana,arial"><a href="principal.php?link=">Excluir</a></font></td>
+        </tr>
+
+<?php
+}
+?>
+</table>
+</body>
+</html>

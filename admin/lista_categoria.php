@@ -32,7 +32,7 @@
             <td align="center"><font size="2" face="verdana,arial"><a href="principal.php?link=">Alterar</a></font></td>
             <td align="center"><font size="2" face="verdana,arial"><a href="principal.php?link=">Excluir</a></font></td>
 
-        </tr>
+    </tr>
 
 <?php
 }
