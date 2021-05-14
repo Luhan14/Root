@@ -62,7 +62,7 @@ if (isset($_POST['cadastrar'])) {
 		
 			// Insere os dados no banco
 			$sql = $cn->query("INSERT INTO usuarios VALUES ('', '".$nome."', '".$email."', '".$nome_imagem."')");
-		
+			
 			// Se os dados forem inseridos com sucesso
 			if ($sql){
 				echo "Você foi cadastrado com sucesso.";
